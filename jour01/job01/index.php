@@ -12,7 +12,7 @@
         </header>
 
         <main>
-            <h1></h1>
+            <h1>Job 1</h1>
             <?php
             $hello = "Hello ";
             $lplt = "LaPlateforme";
@@ -20,7 +20,17 @@
             $str2 = "Vive ";
             $str3 = "!";       
             echo ($str2 .$lplt .$str3);
+            ?><br>
+            <?php
+            $val = 6;       
+            echo $val + 4;
+            ?><br>
+            <?php
+            $myBool = false;
+
+            echo $myBool;
             ?>
+
         
             <p>Comment allez vous aujourd'hui?</p>
         </main>
