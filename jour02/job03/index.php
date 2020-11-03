@@ -11,7 +11,7 @@
             while ($x <= 100){
                 
                 switch( $x ) 
-                { case ($x >= 0 && $x <= 20): // si $x est inferieur ou égal à 20
+                { case ($x >= 1 && $x <= 20): // si $x est inferieur ou égal à 20
                     echo '<i>'.($x).'</i>'. '</br>'; //affichage en italique
                     break;
 
